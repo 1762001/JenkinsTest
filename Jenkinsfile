@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // This stage checks out the code from the Git repository
                 script {
-                    git 'https://github.com/your-username/your-repo.git'
+                    git 'https://github.com/1762001/JenkinsTest.git'
                 }
             }
         }
