@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // This stage checks out the code from the Git repository
+        y
                 script {
                     git 'https://github.com/1762001/JenkinsTest.git'
                 }
@@ -13,14 +13,14 @@ pipeline {
         
         stage('Build') {
             steps {
-                // This stage builds the Java project (replace 'mvn clean install' with your build command)
+                
                 sh 'mvn clean install'
             }
         }
         
         stage('Deploy') {
             steps {
-                // This stage deploys the application (replace 'echo' with your deployment command)
+                
                 echo 'Deployment completed successfully!'
             }
         }
